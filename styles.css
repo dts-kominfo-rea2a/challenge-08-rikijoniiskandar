@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: #e1dede;
+    color: #b64436;
+    font-weight: 700;
+}
+
+#app{
+    max-width: 600px;
+    height: 80vh;
+    background-color: #f3f3aa;
+    margin: 40px auto;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+}
+
+#todo-title {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 6px;
+}
+
+#todo-subtitle{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    margin: 12px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    height: 30px;
+    width: 90%;
+    border-radius: 8px;
+    background-color: #f3f3aa;
+    outline: none;
+    border-color: #b64436;
+    color: #b64436;
+    font-size: 18px;
+}
+
+::placeholder{
+    color: #b64436;
+    font-weight: 200;
+}
+
+#todo-submit{
+    padding: 10px 12px ;
+    background-color: #b64436;
+    color: #f3f3aa;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 2px;
+    text-transform: capitalize;
+    outline: none;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 6px 8px;
+    height: auto;
+    overflow-y: auto;
+}
+li{
+    margin: 6px 2px;
+}
